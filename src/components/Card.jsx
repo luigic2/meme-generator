@@ -8,10 +8,10 @@ export default function Card(prop) {
             <img className="card__img" src={prop.datajson.imageUrl} />
             <div className="card__texthousing">
                 <div className="card__locationhousing">
-                    <img className="card__pin" src={img1}/>
+                    <img className="card__pin" src={img1} />
                     <p className="card__location" >{prop.datajson.location}</p>
                     <a className="card__googlemaps" href={prop.datajson.googleMapsUrl} target="_blank">
-                       View on Google Maps
+                        View on Google Maps
                     </a>
                 </div>
                 <h1 className="card__title" >{prop.datajson.title}</h1>

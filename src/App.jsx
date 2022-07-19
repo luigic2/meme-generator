@@ -1,7 +1,7 @@
 import React from "react"
 import Card from "./components/Card"
 import data from "./data"
-import logo from "./images/2.png"
+import logo from "./images/TrollFace.svg"
 
 
 export default function App() {
@@ -22,7 +22,8 @@ export default function App() {
             <div className="menu">
                 <div className="menu__content">
                     <img className="menu__img" src={logo} />
-                    <h3 className="menu__text">my travel journal</h3>
+                    <h3 className="menu__text">Meme Generator</h3>
+                    <p className="menu__seconde__text">React Course - Project 3</p>
                 </div>
             </div>
 
